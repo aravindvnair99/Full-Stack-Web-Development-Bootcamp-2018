@@ -17,8 +17,9 @@ This project is licensed under the MIT license - see the [LICENSE](LICENSE) file
 # :family: Team
 
 * **Abhishek Sai** - *Mentor* - [Abhishek-Sai](https://github.com/Abhishek-Sai)
-* **Aditya Deepak** - *Resource* - [adityadu-18](https://github.com/adityadu-18)
+* **Aditya Deepak** - *Member* - [adityadu-18](https://github.com/adityadu-18)
 * **Aravind V. Nair** - *Lead Mentor* - [AravindVNair99](https://github.com/aravindvnair99)
+* **Ramshankar Yadhunath** - *Lead Incharge* - [ry05](https://github.com/ry05)
 * **Sharon Joji** - *Resource* - [sharonjoji](https://github.com/sharonjoji)
 
 See the full list of [contributors](https://github.com/aravindvnair99/Full-Stack-Web-Development-Bootcamp-2018/graphs/contributors) who participated in this project and statistics.
