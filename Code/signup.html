@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Signup</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+	 crossorigin="anonymous" />
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+	 crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+	 crossorigin="anonymous"></script>
+</head>
+
+<body style="color: #007bff;">
+	<p>
+		<div style="text-align:center">
+			<h2>Please fill in your details.</h2>
+		</div>
+	</p>
+	<div style="padding-left: 100px; padding-right: 100px">
+		<form action="/formSubmit" method="POST">
+			<div class="row">
+				<div class="form-group col">
+					<label for="firstName">First name</label>
+					<input id="firstName" name="firstName" class="form-control" type="text" placeholder="Enter only your first name"
+					 required="true" data-toggle="popover" data-placement="top" data-trigger="focus" title="First Name" data-content="Enter only your first name with first letter in capital." autocomplete="given-name">
+				</div>
+				<div class="form-group col">
+					<label for="lastName">Last name</label>
+					<input name="lastName" class="form-control" type="text" placeholder="Enter only your last Name" required="true"
+					 data-toggle="popover" data-trigger="focus" data-placement="top" title="Last Name" data-content="Enter only your last name with first letter in capital." autocomplete="family-name">
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="email">Email address</label>
+				<input id="email" name="email" class="form-control" type="email" placeholder="Enter your E-mail address" required="true"
+				 data-toggle="popover" data-trigger="focus" data-placement="top" title="Email address" data-content="We'll never share your email with anyone else." autocomplete="email">
+			</div>
+			<div class="row">
+				<div class="form-group col">
+					<label for="userName">Username</label>
+					<input id="userName" name="userName" class="form-control" type="text" placeholder="Enter your username" required="true"
+					 data-toggle="popover" data-placement="top" data-trigger="focus" title="Username" data-content="Your username can contain letters and numbers, and must not contain spaces, special characters, or emoji." autocomplete="username">
+				</div>
+				<div class="form-group col">
+					<label for="password">Password</label>
+					<input id="password" name="password" class="form-control" type="password" placeholder="Enter your password"
+					 required="true" data-toggle="popover" data-trigger="focus" data-placement="top" title="Password" data-content="Your password must be minimum 8 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji." autocomplete="new-password">
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="mobileNumber">Mobile number</label>
+				<input id="mobileNumber" name="mobileNumber" type="number" placeholder="Mobile number" class="form-control" required="true"
+				 data-toggle="popover" data-trigger="focus" title="Mobile number" data-placement="top" data-content="Your mobile number is kept confidential." autocomplete="tel">
+			</div>
+			<div class="form-group">
+				<label for="DOB">D. O. B.</label>
+				<input id="DOB" name="dob" class="form-control" type="date" placeholder="D.O.B" required="true" data-placement="top"
+				 data-toggle="popover" data-trigger="focus" title="D. O. B." data-content="Date month year format." autocomplete="bday">
+			</div>
+			<div class="input-group form-group">
+				<label for="gender">Gender: &nbsp;</label>
+				<div class="custom-control custom-radio">
+					<input id="Male" name="gender" type="radio" class="custom-control-input" value="Male" required="true" autocomplete="sex">
+					<label class="custom-control-label" for="Male">Male</label>
+				</div>&nbsp;&nbsp;
+				<div class="custom-control custom-radio">
+					<input id="Female" name="gender" type="radio" class="custom-control-input" value="Female" required="true" autocomplete="sex">
+					<label class="custom-control-label" for="Female">Female</label>
+				</div>&nbsp;&nbsp;
+				<div class="custom-control custom-radio">
+					<input id="Transgender" name="gender" type="radio" class="custom-control-input" value="Transgender" required="true" autocomplete="sex">
+					<label class="custom-control-label" for="Transgender">Transgender</label>
+				</div>
+			</div>
+			<div class="custom-control custom-checkbox">
+				<input type="checkbox" class="custom-control-input" name="invite" id="invite">
+				<label class="custom-control-label" for="invite">Do you want invites in your e-mail?
+				</label>
+			</div><br>
+			<div class="btn-group form-group" role="group">
+				<button type="button" class="btn btn-success" data-toggle="modal" data-target="#Submit" data-placement="top"
+				 data-trigger="hover" title="Agree" data-content="By clicking, you agree to terms and conditions.">Submit</button>
+				<input type="reset" class="btn btn-danger" data-toggle="popover" data-placement="top" data-trigger="hover" title="Start fresh"
+				 data-content="Refill the form.">
+			</div>
+			<div class="modal fade" id="Submit" tabindex="-1" role="dialog" aria-labelledby="SubmitLabel" aria-hidden="true">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="SubmitLabel">Confirm form submission?</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+						<div class="modal-body" style="color: black;">
+							By clicking signup, you agree to the terms and conditions.
+							<br><br>
+							<h2 style="color: #007bff">General</h2>
+							These Terms and Conditions ("Agreement") governs the use of the services ("Service") that are made available by
+							CompanyName ("CompanyName.in", "we" or "us"). These Terms and Conditions represent the whole agreement and
+							understanding between CompanyName and the individual or entity who subscribes to our service ("Subscriber" or
+							"user" or "you").
+							<br><br>
+							PLEASE READ THIS AGREEMENT CAREFULLY. By submitting your application and by your use of the Service, you agree
+							to comply with all of the terms and conditions set out in this Agreement. CompanyName may terminate your account at
+							any time, with or without notice, for conduct that is in breach of this Agreement, for conduct that CompanyName
+							believes is harmful to its business, or for conduct where the use of the Service is harmful to any other party.
+							<br><br>
+							CompanyName, in its sole discretion, change or modify this Agreement at any time, with or without notice. Such
+							changes or modifications shall be made effective for all Subscribers upon posting of the modified Agreement to
+							this web address (URL): <a href="https://www.CompanyName.in/terms-and-conditions/">https://www.CompanyName.in/terms-and-conditions/</a>.
+							You are responsible to read this document from time to time to ensure that your use of the Service remains in
+							compliance with this Agreement.
+							<br>
+							<hr>
+							<h2 style="color: #007bff">User Responsibility</h2>
+							When you apply to use CompanyName services, you will be asked to select a username and Password. The username and
+							password are the means through which you access certain services. You acknowledge and agree that it is your
+							responsibility to safeguard the username and password you select from any unauthorized use. IN NO EVENT WILL
+							CompanyName BE LIABLE FOR THE UNAUTHORIZED USE OR MISUSE OF YOUR USERNAME OR PASSWORD.
+							<br><br>
+							Users are further responsible for maintaining accurate account information at all times, including credit card
+							and contact information. This information can be updated in your account profile panel.
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+							<button type="submit" class="btn btn-primary">Signup</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+	<script>
+		$(document).ready(function () {
+			$('[data-toggle="popover"]').popover();
+		});
+	</script>
+</body>
+
+</html>
