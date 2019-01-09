@@ -2,10 +2,15 @@
     background-color: green;
 }
 
-#table{
+.table{
     background-color: wheat;
 }
 
 body{
     background-color: turquoise;
+}
+
+h1{
+    color: blueviolet;
+    text-align: center;
 }
