@@ -32,14 +32,65 @@ Lists
 
 Unordered
 
-* Item 1
-* Item 2
-	* Item 2a
-	* Item 2b
+-	Item 1
+*	Item 2
+	-   Item 2a
+	*   Item 2b
 
 Ordered
 
 1. Item 1
 2. Item 2
-	* Item 2a
+	- Item 2a
 	* Item 2b
+
+Images
+
+![GitHub Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/64px-Markdown-mark.svg.png)
+
+Links
+
+https://github.com - automatic!
+
+[GitHub](https://github.com)
+
+Blockquotes
+
+As GitHub says:
+
+> GitHub is how people build software.
+> We're supporting a community where more than 31 million people learn, share, and work together to build software as of November 2018.
+
+Backslash Escapes
+
+Markdown allows you to use backslash escapes to generate literal characters which would otherwise have special meaning in Markdown's formatting syntax.
+
+\*literal asterisks\*
+
+_literal asterisks_
+
+Markdown provides backslash escapes for the following characters:
+
+\ backslash
+
+() parentheses
+
+' backtick
+
+\# hash mark
+
+\* asterisk
+
+\+ plus sign
+
+\_ underscore
+
+\- minus sign(hyphen)
+
+{} curly braces
+
+. dot
+
+[] square brackets
+
+! exclamation mark
