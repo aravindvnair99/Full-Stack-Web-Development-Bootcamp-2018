@@ -2,9 +2,9 @@ Markdown is a way to style text on the web. You can control the display of the d
 
 Headers
 
-# This is an <h1> tag
+# This is an h1 tag
 
-## This is an <h2> tag
+## This is an h2 tag
 
 ### This is an <h3> tag
 
