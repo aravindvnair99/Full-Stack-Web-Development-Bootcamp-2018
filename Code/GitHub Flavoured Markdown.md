@@ -94,3 +94,20 @@ Markdown provides backslash escapes for the following characters:
 [] square brackets
 
 ! exclamation mark
+
+GitHub uses its own version of Markdown syntax that provides an additional set of useful features, many of which make it easier to work with content on GitHub.
+
+Username @mentions
+
+Typing an @ symbol followed by a username, will notify that person to come and view the comment. This is called an "@mention", because you're mentioning the individual. You can also @mention teams within an organization.
+
+Issue references
+
+Any number that refers to an issue or pull request will be automatically converted into a link.
+
+\#1
+defunkt#1
+defunkt/github-flavored-markdown#1
+
+Task lists
+
