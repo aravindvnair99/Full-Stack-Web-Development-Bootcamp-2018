@@ -145,4 +145,5 @@ Emoji
 To see a list of every emoji that's supported, check out emoji-cheet-sheet.com
 
 GitHub supports emoji!
+
 :+1: :sparkles: :camel: :tada: :rocket: :metal: :octocat:
