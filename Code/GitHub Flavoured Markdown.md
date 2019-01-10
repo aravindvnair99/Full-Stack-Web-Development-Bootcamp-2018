@@ -111,3 +111,4 @@ defunkt/github-flavored-markdown#1
 
 Task lists
 
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
