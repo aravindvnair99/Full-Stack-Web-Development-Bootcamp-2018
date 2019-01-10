@@ -33,15 +33,15 @@ Lists
 Unordered
 
 -   Item 1
--   Item 2
-    _ Item 2a
-    _ Item 2b
+*   Item 2
+    * Item 2a
+    - Item 2b
 
 Ordered
 
 1. Item 1
 2. Item 2
-    - Item 2a
+    * Item 2a
     - Item 2b
 
 Images
@@ -71,7 +71,9 @@ _literal asterisks_
 
 Markdown provides backslash escapes for the following characters:
 
-\ backslash
-' backtick
-
--   asterisk
+\ backslash				() parentheses
+' backtick				# hash mark
+\* asterisk				+ plus sign
+_ underscore			- minus sign(hyphen)
+{} curly braces			. dot
+[] square brackets 		! exclamation mark
