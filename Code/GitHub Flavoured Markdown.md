@@ -117,3 +117,12 @@ Task lists
 - [x] list syntax required (any unordered or ordered list supported)
 -[x] this is a complete item
 -[] this is an incomplete item
+
+Fenced code blocks
+
+Markdown converts text with four leading spaces into a code block; with GFM you can wrap your code with ``` to create a code block without the leading spaces. Add an optional language identifier and your code will get syntax highlighting.
+
+```javascript
+function test() {
+	console.log("See..., no spaces");
+}
