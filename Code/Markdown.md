@@ -47,3 +47,16 @@ Ordered
 Images
 
 ![GitHub Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/64px-Markdown-mark.svg.png)
+
+Links
+
+https://github.com - automatic!
+
+[GitHub](https://github.com)
+
+Blockquotes
+
+As GitHub says:
+
+>GitHub is how people build software.
+>We're supporting a community where more than 31 million people learn, share, and work together to build software as of November 2018.
