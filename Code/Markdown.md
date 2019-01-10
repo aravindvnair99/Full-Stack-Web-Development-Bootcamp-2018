@@ -71,9 +71,15 @@ _literal asterisks_
 
 Markdown provides backslash escapes for the following characters:
 
-\ backslash				() parentheses
-' backtick				# hash mark
-\* asterisk				+ plus sign
-_ underscore			- minus sign(hyphen)
-{} curly braces			. dot
-[] square brackets 		! exclamation mark
+\ backslash
+() parentheses
+' backtick
+# hash mark
+\* asterisk
+\+ plus sign
+_ underscore
+\- minus sign(hyphen)
+{} curly braces
+. dot
+[] square brackets
+! exclamation mark
