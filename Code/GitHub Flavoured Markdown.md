@@ -8,3 +8,13 @@ Headers
 #### This is an <h4> tag
 ##### This is an <h5> tag
 ###### This is an <h6> tag
+
+Emphasis
+
+*This text will be italics*
+_This text will also be italics_
+
+**This text will be bold**
+__This text will be also be bold__
+
+*You **can** combine them*
