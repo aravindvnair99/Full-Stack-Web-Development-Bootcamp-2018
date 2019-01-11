@@ -2,14 +2,18 @@
 <html lang="en">
 	<head>
 		<title>Login</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
-		 crossorigin="anonymous" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+			integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+			crossorigin="anonymous"
+		/>
 		<style type="text/css" media="screen">
-			#login_{
+			#login_ {
 				margin: 0 auto;
-				width:270px;
+				width: 270px;
 				padding-top: 100px;
 			}
 		</style>
@@ -18,24 +22,38 @@
 		<form id="login_" action="./loginSubmit" method="GET">
 			<div class="login-group form-group">
 				<label for="username" class="">Username:</label>
-				<input required="true" class="form-control" name="username" type="text">
+				<input
+					required="true"
+					class="form-control"
+					name="username"
+					type="text"
+				/>
 			</div>
 			<div class="login-group form-group">
 				<label for="password" class="">Password:</label>
-				<input required="true" class="form-control" name="pass" type="password">
+				<input
+					required="true"
+					class="form-control"
+					name="pass"
+					type="password"
+				/>
 			</div>
 			<div class="btn-group form-group" role="group">
 				<button type="submit" class="btn btn-success">Submit</button>
-				<input type="reset" class="btn btn-danger">
+				<input type="reset" class="btn btn-danger" />
 			</div>
 			<div class="form-group">
-				<label for="forgot">Forgot your password?</label><br>
-				<a href="#" style="color: white;">No worries, click here to reset</a>
+				<label for="forgot">Forgot your password?</label><br />
+				<a href="#" style="color: white;"
+					>No worries, click here to reset</a
+				>
 			</div>
 			<div class="form-group">
-				<label for="signup">New user?</label><br>
-				<a href="/signup" style="color: white;">Get a new StudyOwl account for free</a>
+				<label for="signup">New user?</label><br />
+				<a href="/signup" style="color: white;"
+					>Get a new StudyOwl account for free</a
+				>
 			</div>
-		</form>	
+		</form>
 	</body>
 </html>
