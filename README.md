@@ -2,7 +2,7 @@
 
 Code and resources for Full Stack Web Development Bootcamp 2018
 
-Made originally for a workshop at Amrita University based on HTML5, CSS3, Materialize, JS, Node.js, Express.js Firebase Hosting, Firebase Cloud Functions, Firebase Authentication, Firebase Cloud Firestore.
+Made originally for a workshop at Amrita University based on HTML5, CSS3, Bootstrap 4, JS, Node.js, Express.js Firebase Hosting, Firebase Cloud Functions, Firebase Authentication, Firebase Cloud Firestore.
 
 # :computer: How to contribute?
 
